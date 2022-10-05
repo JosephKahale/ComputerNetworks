@@ -1,4 +1,2 @@
-What does this repo contain? 
-
-Created a Web Socket Server, binded a specific address to port,
+#Created a Web Socket Server, binded a specific address to port,
 and sent/recieved a HTTP packet.
