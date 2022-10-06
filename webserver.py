@@ -27,6 +27,7 @@ while True:
         outputdata = f.read()            
         #Send one HTTP header line into socket 
         connectionSocket.send('HTTP/1.1 200 OK'.encode())
+        connectionSocket.send(message.encode())
         #Send the content of the requested file to the client 
         for i in range(0, len(outputdata)):
             connectionSocket.send(outputdata[i].encode()) 
